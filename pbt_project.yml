@@ -1,0 +1,84 @@
+name: dewayne.graham
+description: non-volatile
+version: 0.0.1
+author: cevlebr3.lx1decjs@gcji8ump.com
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-02-05 14:01:30'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/model:
+    name: model
+    schema:
+      model: model
+    description: null
+    author: cevlebr3.lx1decjs@gcji8ump.com
+    files: []
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-02-05 14:01:31'
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds:
+  .prophecy/metadata/sqlseeds/seed:
+    name: seed
+    schema:
+      seed:
+        seedInner: value
+    description: null
+    author: cevlebr3.lx1decjs@gcji8ump.com
+    files: []
+    createdAt: '2025-02-05 14:01:31'
+sqlSources:
+  .prophecy/metadata/sqlsources/source:
+    name: source
+    description: null
+    author: cevlebr3.lx1decjs@gcji8ump.com
+    files: []
+    createdAt: '2025-02-05 14:01:31'
+    tables:
+    - name: table1
+      schema:
+        table1: value
+      description: null
+      author: cevlebr3.lx1decjs@gcji8ump.com
+      createdAt: '2025-02-05 14:01:31'
+    - name: table2
+      schema:
+        table2: value
+      description: null
+      author: cevlebr3.lx1decjs@gcji8ump.com
+      createdAt: '2025-02-05 14:01:31'
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: cevlebr3.lx1decjs@gcji8ump.com
+  createdAt: '2025-02-05 14:01:30'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
